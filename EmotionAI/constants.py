@@ -1,0 +1,11 @@
+SADNESS_SENTENCE = "Crying Helps Me Slow Down And Obsess Over The Weight Of Life's Problems."
+ANGER_SENTENCE = "DID I ASK FOR THE GUM COMMERCIAL?!"
+DISGUST_SENTENCE = "Okay, Caution, There Is A Dangerous Smell, People."
+JOY_SENTENCE = "I Just Wanted Riley To Be Happy"
+FEAR_SENTENCE = "I sure am glad you told me earthquakes are a myth Joy, otherwise i'd be terrified right now."
+EMOTIONS = ['Goofy Sadness','Funny Anger','Silly Disgust','Joy','Silly Fear']
+SENTENCES = [SADNESS_SENTENCE,ANGER_SENTENCE,DISGUST_SENTENCE,JOY_SENTENCE,FEAR_SENTENCE]
+EMOTION_DICT = {EMOTIONS[i]:SENTENCES[i] for i in range(len(SENTENCES))}
+NUM_SENTENCES = 50
+OPEN_AI_API_KEY = 'fake_open_ai_key'
+DEFAULT_ENVIRONMENT_PATH = 'environment_emotion_ai'
